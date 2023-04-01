@@ -17,7 +17,11 @@
 .home{ 
     background-color: var(--dark-alt);
     color: var(--light);
-    width: 100%;
+    width: 60%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
 }
 
 .home>h1{

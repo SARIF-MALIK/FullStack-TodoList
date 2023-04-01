@@ -10,6 +10,7 @@ function Home() {
 
   useEffect(()=>{
     GetTodos(); 
+    console.log('useEffect')
     console.log(todos);
   },[])
 
@@ -68,7 +69,7 @@ function Home() {
               <h3>Add Task</h3>
               
               <input type='text' className='addTodoInput' onChange={e=> setNewTodo(e.target.value)}  value={newTodo}/>
-              <div className="button" onClick={addTodo}>Create Task</div>
+              <div className="button" onClick={addTodo} onke>Create Task</div>
             </div> 
           </div>
           ) : ' '
